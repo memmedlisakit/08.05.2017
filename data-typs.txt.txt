@@ -1,0 +1,28 @@
+C# deyishenler ashagidaki novlerde kategoriye olundu.
+
+1.deyer (value) novleri
+2.istinad (referance) novleri
+3.gosterici (pointer) novleri
+
+
+1.(value) Deyer novu deyishenlere derhal bir deyer teyin edile biler. Bunlar System.ValueType sinifinden toredilmishdir.
+Deyer novleri derhal melumat saxliyir. Her biri ayri olaraq, elifba ve uzen noqteli sayilari depolayir bezi missallar int, char ve float.
+Bir int novu bildirende, sistem deyeri saxlamaq uchun yaddash ayirir.
+
+2.(Reference) Istinad novleri bir deyishene melumati saxlamaqa tutum vermir , amma deyishenlere bir istinad tutumlayir. Bashqa sozlerde, bir yaddasha muraciet edirler.
+Birden chox deyishen ishlederek, istinad novleri yaddasha muraciet ede biler. Yadashda melumatlar deyishenlerden biri terefinden deyishdirilirse, diyer deyishen bu deyishikliye
+deyerini avtomatik olaraq eks etdirir. Daxili olan istinad novu numuneleri: obyekt, dinamik,ve setir.
+
+3.(Object) Obyekt novu, C# Ortaq Nov Sistemi (Common Type System - CTS) deki butun melumat novleri uchun son baza sinifidir. Obyekt sistem uchun bir leqebdir.Obyekt sinif.
+Obyekt novune, her hansi bashqa novlerde, deyer novleri, emlak novleri, onceden tanidilmish veya istifadechi tanimli novlerin deyerlerini teyin etmish ola biler.
+Lakin deyer teyin etmeden once, nov deyishimine ehtiyac var.Bir deyer novu obyekt novune donshurulende, qutulama deyilir ve o biri terefden, bir obiyekt novu bir deyer novune
+donushdurulende, qutudan chixarma deyilir. 
+
+4.(Dynamic) Dinamik melumat novu deyisheninde her nov deyeri saxliya bilerik.Bu nov deyishenler uchun yoxlama, ishleme zamani bash verir.
+Dinamik novleri anlayishi, obyekt novune oxshardir, obyekt novu deyishenleri uchun novu yoxlamasi, toplama zamani bash verir, halbuki dinamik nov deyishenleri uchun ishleme zamani bash verir.
+
+5.(String) Setir novu herhansi bir deyishene setir deyeri teyin etmeye icaze verir. Setir novu System.String sinifi uchun bir leqebdir. Obyekt novune gore toredilir.
+Bir setir novu uchun deyer, setir deyishmezleri ishlederek iki formada ifade ede bilir: quoted ve @quoted. Istifadechi tanimli muraciet novleri bunlardir: sinif,
+interfeys ya numayende.
+
+6.(Pointer) Gosterici novu deyishenleri, bashqa bir novdeki yaddash adresini saxliyir. C# gostericilerinin C veya C++ gostericileriyle  eyni imkanlari var.
